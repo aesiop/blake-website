@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal website and portfolio of [Your Name]">
+  <title>[Your Name] | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- Navigation Header -->
+  <header class="site-header">
+    <nav class="nav-container" aria-label="Main Navigation">
+      <a href="index.html" class="brand-link">
+        <span>[Your Name]</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-link active" aria-current="page">Home</a></li>
+        <li><a href="resume.html" class="nav-link">Resume</a></li>
+        <li><a href="project.html" class="nav-link">Featured Project</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <div class="container">
+
+      <!-- Profile Hero Section -->
+      <section class="profile-card" aria-labelledby="profile-heading">
+        <div class="avatar-placeholder" aria-label="Profile photo placeholder">
+          <svg class="avatar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+            <circle cx="12" cy="7" r="4"></circle>
+          </svg>
+          <span>[Photo Placeholder]</span>
+        </div>
+        <div class="profile-details">
+          <span class="section-label">Welcome</span>
+          <h1 id="profile-heading">[Your Name]</h1>
+          <p class="profile-title">[Your Professional Title / Role]</p>
+          <p class="profile-bio">
+            [Brief Bio / Summary: Introduce yourself in two or three sentences. Describe your professional focus,
+            current pursuits, and the value you bring to your projects and teams.]
+          </p>
+          <div class="button-group">
+            <a href="resume.html" class="btn btn-primary">View Resume</a>
+            <a href="project.html" class="btn btn-secondary">Featured Project</a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Project Highlight -->
+      <section class="section-block" aria-labelledby="featured-project-heading">
+        <div class="section-header">
+          <span class="section-label">Spotlight</span>
+          <h2 id="featured-project-heading">Featured Project</h2>
+        </div>
+        <article class="card">
+          <span class="section-label">[Category / Domain]</span>
+          <h3>[Featured Project Title]</h3>
+          <p>[One to two sentence summary highlighting the purpose of this project, the problem it solves, and the key
+            outcome or impact.]</p>
+
+          <div class="skill-tags">
+            <span class="skill-tag">[Technology 1]</span>
+            <span class="skill-tag">[Technology 2]</span>
+            <span class="skill-tag">[Technology 3]</span>
+            <span class="skill-tag">[Technology 4]</span>
+          </div>
+
+          <div class="button-group">
+            <a href="project.html" class="btn btn-primary">Read Case Study &rarr;</a>
+          </div>
+        </article>
+      </section>
+
+      <!-- Skills Section -->
+      <section class="section-block" aria-labelledby="skills-heading">
+        <div class="section-header">
+          <span class="section-label">Expertise</span>
+          <h2 id="skills-heading">Skills & Competencies</h2>
+        </div>
+
+        <div class="card-grid">
+          <div class="card">
+            <h3>Technical Skills</h3>
+            <p>[Key technical languages, tools, frameworks, and methodologies]</p>
+            <div class="skill-tags">
+              <span class="skill-tag">[Skill 1]</span>
+              <span class="skill-tag">[Skill 2]</span>
+              <span class="skill-tag">[Skill 3]</span>
+              <span class="skill-tag">[Skill 4]</span>
+              <span class="skill-tag">[Skill 5]</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Tools & Platforms</h3>
+            <p>[Software, platforms, workflows, and developer or productivity tools]</p>
+            <div class="skill-tags">
+              <span class="skill-tag">[Tool 1]</span>
+              <span class="skill-tag">[Tool 2]</span>
+              <span class="skill-tag">[Tool 3]</span>
+              <span class="skill-tag">[Tool 4]</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Professional & Core Competencies</h3>
+            <p>[Collaborative, leadership, design, and domain-specific capabilities]</p>
+            <div class="skill-tags">
+              <span class="skill-tag">[Competency 1]</span>
+              <span class="skill-tag">[Competency 2]</span>
+              <span class="skill-tag">[Competency 3]</span>
+              <span class="skill-tag">[Competency 4]</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience Summary Section -->
+      <section class="section-block" aria-labelledby="experience-heading">
+        <div class="section-header">
+          <span class="section-label">Career</span>
+          <h2 id="experience-heading">Experience Overview</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-header">
+              <h3 class="timeline-role">[Current / Most Recent Job Title]</h3>
+              <span class="timeline-meta">[Start Date] &ndash; [End Date / Present] &bull; [Location]</span>
+            </div>
+            <div class="timeline-company">[Company / Organization Name]</div>
+            <p>[High-level description of your core responsibilities and primary impact in this position.]</p>
+            <ul class="bullet-list">
+              <li>[Key accomplishment or contribution with measurable impact]</li>
+              <li>[Responsibility, project delivery, or collaboration highlight]</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="button-group" style="margin-top: 1.5rem;">
+          <a href="resume.html" class="btn btn-secondary">View Full Work History on Resume &rarr;</a>
+        </div>
+      </section>
+
+      <!-- Contact Information Section -->
+      <section id="contact" class="section-block" aria-labelledby="contact-heading">
+        <div class="section-header">
+          <span class="section-label">Connect</span>
+          <h2 id="contact-heading">Contact Information</h2>
+          <p>Feel free to reach out for collaboration, opportunities, or inquiries.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <span class="contact-label">Email</span>
+            <span class="contact-value"><a href="mailto:[your.email@example.com]">[your.email@example.com]</a></span>
+          </div>
+
+          <div class="contact-card">
+            <span class="contact-label">Phone</span>
+            <span class="contact-value">[Your Phone Number]</span>
+          </div>
+
+          <div class="contact-card">
+            <span class="contact-label">Location</span>
+            <span class="contact-value">[City, State / Country]</span>
+          </div>
+
+          <div class="contact-card">
+            <span class="contact-label">LinkedIn</span>
+            <span class="contact-value"><a href="[Your LinkedIn URL]" target="_blank"
+                rel="noopener noreferrer">[LinkedIn Profile Placeholder]</a></span>
+          </div>
+
+          <div class="contact-card">
+            <span class="contact-label">GitHub</span>
+            <span class="contact-value"><a href="[Your GitHub URL]" target="_blank" rel="noopener noreferrer">[GitHub
+                Profile Placeholder]</a></span>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="project.html">Featured Project</a></li>
+      </ul>
+      <p>&copy; <span id="year">2026</span> [Your Name]. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
